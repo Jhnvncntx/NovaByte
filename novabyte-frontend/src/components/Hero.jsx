@@ -2,7 +2,7 @@ export function Hero() {
   return (
     <section className="flex flex-row items-center justify-center gap-[10rem] text-white w-[100%] px-[10rem] py-[8rem] relative overflow-hidden h-[100vh]">
       {/* THE GLOWING CIRCLE */}
-      <div className="w-[450px] h-[450px] bg-[#7c3aed]/30 rounded-[50%] absolute -z-10 blur-[100px] left-[240px]"></div>
+      <div className="w-[550px] h-[550px] bg-[#7c3aed]/25 rounded-[50%] absolute -z-10 blur-[100px] top-[200px] left-[300px]"></div>
       {/* LEFT SIDE */}
       <div className="flex flex-col items-start justify-between gap-[2rem]">
         {/* Pill */}
@@ -25,14 +25,14 @@ export function Hero() {
         </div>
       </div>
       {/* RIGHT SIDE */}
-      <div className="flex flex-col items-center justify-center w-[50%] h-[90%] overflow-hidden rounded-[1rem] filter drop-shadow-[0_0_30px_rgba(139,92,246,0.3)]">
+      <div className="flex flex-col items-center justify-center w-[35%] h-[75%] overflow-hidden rounded-[1rem] filter drop-shadow-[0_0_30px_rgba(139,92,246,0.3)]">
         {/* HEADER */}
         <div className="h-[10%] w-[100%] bg-[#13131A] flex flex-row items-center justify-start pl-[1rem]">
           {/* 3 MacOS dots */}
           <div className="flex flex-row items-center justify-center gap-[10px]">
-            <div className="h-[1rem] w-[1rem] bg-red-600 rounded-[50%]" />
-            <div className="h-[1rem] w-[1rem] bg-orange-600 rounded-[50%]" />
-            <div className="h-[1rem] w-[1rem] bg-green-600 rounded-[50%]" />
+            <div className="h-[1rem] w-[1rem] bg-red-500 rounded-[50%]" />
+            <div className="h-[1rem] w-[1rem] bg-orange-500 rounded-[50%]" />
+            <div className="h-[1rem] w-[1rem] bg-green-500 rounded-[50%]" />
           </div>
         </div>
         {/* BODY */}
