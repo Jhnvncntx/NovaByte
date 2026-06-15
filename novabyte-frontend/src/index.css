@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  overflow-y: auto;
+  scrollbar-width: thin; /* For Firefox */
+}
+
+/* For Chrome, Edge, and Safari: Makes the track completely transparent */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(156, 163, 175, 0.5); /* Semi-transparent gray */
+  border-radius: 9999px;
+}
+
+body {
+  background-color: #0a0a0f;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.button-primary {
+  background-color: #7c3aed;
+  color: white;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.7rem 2rem;
+}
+.button-primary:hover {
+  background-color: #522a99;
+}
+
+.button-secondary {
+  color: #7c3aed;
+  border: 1px #7c3aed solid;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.7rem 2rem;
+}
+.button-secondary:hover {
+  background-color: rgba(124, 58, 237, 0.3);
+  color: white;
+}
