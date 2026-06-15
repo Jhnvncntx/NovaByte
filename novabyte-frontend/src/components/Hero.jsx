@@ -1,6 +1,6 @@
 export function Hero() {
   return (
-    <section className="flex flex-row items-center justify-center gap-[10rem] text-white w-[100%] px-[10rem] py-[10rem] relative overflow-hidden">
+    <section className="flex flex-row items-center justify-center gap-[10rem] text-white w-[100%] px-[10rem] py-[8rem] relative overflow-hidden h-[100vh]">
       {/* THE GLOWING CIRCLE */}
       <div className="w-[450px] h-[450px] bg-[#7c3aed]/30 rounded-[50%] absolute -z-10 blur-[100px] left-[240px]"></div>
       {/* LEFT SIDE */}
@@ -25,7 +25,7 @@ export function Hero() {
         </div>
       </div>
       {/* RIGHT SIDE */}
-      <div className="flex flex-col items-center justify-center w-[50%] h-[100%] overflow-hidden rounded-[1rem] filter drop-shadow-[0_0_30px_rgba(139,92,246,0.3)]">
+      <div className="flex flex-col items-center justify-center w-[50%] h-[90%] overflow-hidden rounded-[1rem] filter drop-shadow-[0_0_30px_rgba(139,92,246,0.3)]">
         {/* HEADER */}
         <div className="h-[10%] w-[100%] bg-[#13131A] flex flex-row items-center justify-start pl-[1rem]">
           {/* 3 MacOS dots */}

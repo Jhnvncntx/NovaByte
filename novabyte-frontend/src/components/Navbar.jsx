@@ -1,6 +1,6 @@
 export function Navbar() {
   return (
-    <nav className="bg-primary-background/50 backdrop-blur-md sticky top-0 left-0 text-white flex content-center justify-between px-[100px] border-b border-color-border h-[72px]">
+    <nav className="bg-primary-background/50 backdrop-blur-md sticky top-0 left-0 text-white flex content-center justify-between px-[100px] border-b border-color-border h-[72px] z-50">
       <div className="text-[22px] font-bold content-center cursor-pointer">
         NovaByte
       </div>
