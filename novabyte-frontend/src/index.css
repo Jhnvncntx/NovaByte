@@ -57,3 +57,19 @@ body {
   background-color: rgba(124, 58, 237, 0.3);
   color: white;
 }
+
+.section-head-title {
+  color: #7c3aed;
+  font-weight: 500;
+  font-size: 12px;
+}
+.section-heading {
+  color: white;
+  font-weight: 700;
+  font-size: 48px;
+}
+.section-subheading {
+  color: #94949f;
+  font-weight: 400;
+  font-size: 16px;
+}

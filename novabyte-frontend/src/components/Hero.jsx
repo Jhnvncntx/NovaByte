@@ -1,8 +1,8 @@
 export function Hero() {
   return (
-    <section className="flex flex-row items-center justify-center gap-[10rem] text-white w-[100%] px-[10rem] py-[8rem] relative overflow-hidden h-[100vh]">
+    <section className="flex flex-row items-center justify-center gap-[10rem] text-white w-[100%] px-[10rem] py-[5rem] relative overflow-hidden">
       {/* THE GLOWING CIRCLE */}
-      <div className="w-[550px] h-[550px] bg-[#7c3aed]/25 rounded-[50%] absolute -z-10 blur-[100px] top-[200px] left-[300px]"></div>
+      <div className="w-[400px] h-[400px] bg-[#7c3aed]/25 rounded-[50%] absolute -z-10 blur-[100px] top-[50px] left-[300px]"></div>
       {/* LEFT SIDE */}
       <div className="flex flex-col items-start justify-between gap-[2rem]">
         {/* Pill */}
@@ -14,10 +14,10 @@ export function Hero() {
           We Build Digital <br /> Experiences That <br /> Actually Convert
         </h1>
         {/* SubHeading */}
-        <h3>
+        <p>
           NovaByte is a full-service creative agency helping brands grow <br />{" "}
           through strategy, design, and development.
-        </h3>
+        </p>
         {/* Buttons */}
         <div className="flex flex-row items-center justify-center gap-[1rem]">
           <button className="button-primary">Start a Project</button>
@@ -25,7 +25,7 @@ export function Hero() {
         </div>
       </div>
       {/* RIGHT SIDE */}
-      <div className="flex flex-col items-center justify-center w-[35%] h-[75%] overflow-hidden rounded-[1rem] filter drop-shadow-[0_0_30px_rgba(139,92,246,0.3)]">
+      <div className="flex flex-col items-center justify-center w-[35%] h-[500px] overflow-hidden rounded-[1rem] filter drop-shadow-[0_0_30px_rgba(139,92,246,0.3)]">
         {/* HEADER */}
         <div className="h-[10%] w-[100%] bg-[#13131A] flex flex-row items-center justify-start pl-[1rem]">
           {/* 3 MacOS dots */}

@@ -10,6 +10,7 @@ export default {
         "purple-accent": "#7C3AED",
         "purple-accent-light": "#A78BFA",
         "secondary-background": "#13131A",
+        "secondary-text": "#94949F",
       },
     },
   },
