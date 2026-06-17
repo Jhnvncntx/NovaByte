@@ -1,8 +1,10 @@
+import React from "react";
+
 export function About() {
   const stats = [
-    { number: "80+", label: "Clients Served" },
-    { number: "12", label: "Countries" },
-    { number: "5", label: "Years Experience" },
+    { id: 1, number: "80+", label: "Clients Served" },
+    { id: 2, number: "12", label: "Countries" },
+    { id: 3, number: "5", label: "Years Experience" },
   ];
   return (
     <section className="flex items-center justify-center w-[100%] px-[10rem] py-[5rem] overflow-hidden">
@@ -25,7 +27,7 @@ export function About() {
           {/* Stats */}
           <div className="flex items-center justify-center gap-[40px]">
             {stats.map((stat, index) => (
-              <>
+              <React.Fragment key={stat.id}>
                 <div className="flex flex-col w-[100px] h-[100px]">
                   <h2 className="text-white text-[36px] font-bold text-center">
                     {stat.number}
@@ -37,7 +39,7 @@ export function About() {
                 {index < stats.length - 1 && (
                   <div className="w-[1px] h-[60px] bg-color-border" />
                 )}
-              </>
+              </React.Fragment>
             ))}
           </div>
         </div>
