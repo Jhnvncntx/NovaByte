@@ -14,11 +14,14 @@ export function Testimonials() {
         <div className="flex flex-row items-center justify-center gap-6">
           {testimonials.map((testimonial) => (
             // CARD
-            <div className="flex flex-col items-center justify-center gap-5 p-8 bg-card-background border border-color-border rounded-[12px]">
+            <div
+              key={testimonial.id}
+              className="flex flex-col items-center justify-center gap-5 p-8 bg-card-background border border-color-border rounded-[12px]"
+            >
               <span>⭐⭐⭐⭐⭐</span>
               <p className="text-center">{testimonial.quote}</p>
               {/* Profile */}
-              <div className="flex items-center justify-center gap-3">
+              <div className="flex items-center justify-center gap-3 rounded-[.75rem] border border-color-border px-4 py-2">
                 {/* avatar */}
                 <img
                   className="w-10 h-10 rounded-full object-cover"

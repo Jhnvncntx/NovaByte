@@ -18,7 +18,10 @@ export function Work() {
         <div className="grid grid-cols-3 gap-6">
           {works.map((work) => (
             // Card Container
-            <div className="relative overflow-hidden rounded-xl flex flex-col items-start bg-card-background border border-color-border">
+            <div
+              key={work.id}
+              className="relative overflow-hidden rounded-xl flex flex-col items-start bg-card-background border border-color-border"
+            >
               {/* Card Image Container */}
               <div>
                 <img
