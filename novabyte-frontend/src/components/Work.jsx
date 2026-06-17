@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 
 export function Work() {
   return (
-    <section className="flex flex-row items-center justify-center text-white px-[10rem] py-[3rem] overflow-hidden w-[100%]">
+    <section className="flex flex-row items-center justify-center text-white px-[10rem] py-[5rem] overflow-hidden w-[100%]">
       {/* Main Container */}
       <div className="flex flex-col items-center justify-center gap-[59px]">
         {/* Heading */}
