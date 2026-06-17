@@ -1,4 +1,4 @@
-import { services } from "../data/Services";
+import { services } from "../data/services";
 import { Code, Palette, TrendingUp, Megaphone, ArrowRight } from "lucide-react";
 
 export function Services() {
