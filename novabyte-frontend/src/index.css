@@ -4,10 +4,9 @@
 
 html {
   overflow-y: auto;
-  scrollbar-width: thin; /* For Firefox */
+  scrollbar-width: thin;
 }
 
-/* For Chrome, Edge, and Safari: Makes the track completely transparent */
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -15,7 +14,7 @@ html {
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: rgba(156, 163, 175, 0.5); /* Semi-transparent gray */
+  background-color: rgba(156, 163, 175, 0.5);
   border-radius: 9999px;
 }
 
@@ -34,6 +33,7 @@ body {
   box-sizing: border-box;
 }
 
+/* GENERAL STYLING */
 .button-primary {
   background-color: #7c3aed;
   color: white;
@@ -75,7 +75,7 @@ body {
   font-size: 16px;
 }
 
-/* THIS IS FOR THE CONTACT SECTION */
+/* THIS IS ONLY USED IN CONTACT SECTION*/
 .contact-input {
   width: 100%;
   background-color: #1c1c27;
