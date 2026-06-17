@@ -40,7 +40,7 @@ export function Work() {
                 <h3 className="text-[18px] font-semibold">{work.title}</h3>
                 {/* Action Text */}
                 <a
-                  className="text-purple-accent text-[14px] font-medium flex flex-row items-center justify-start gap-[10px] self-end"
+                  className="text-purple-accent text-[14px] font-medium flex flex-row items-center justify-start gap-[10px] self-end hover:underline"
                   href={work.link}
                 >
                   View Case

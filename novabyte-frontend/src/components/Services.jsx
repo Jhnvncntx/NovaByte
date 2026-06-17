@@ -36,7 +36,7 @@ export function Services() {
                 {service.description}
               </p>
               <a
-                className="text-purple-accent text-[14px] font-medium flex flex-row items-center justify-start gap-[10px]"
+                className="text-purple-accent text-[14px] font-medium flex flex-row items-center justify-start gap-[10px] hover:underline"
                 href="#"
               >
                 Learn more
