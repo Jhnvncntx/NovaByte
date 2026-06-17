@@ -4,6 +4,8 @@ import { Services } from "./components/Services";
 import { Work } from "./components/Work";
 import { About } from "./components/About";
 import { Testimonials } from "./components/Testimonials";
+import { Contact } from "./components/Contact";
+import { FooterBar } from "./components/FooterBar";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Work />
         <About />
         <Testimonials />
+        <Contact />
+        <FooterBar />
       </div>
     </main>
   );

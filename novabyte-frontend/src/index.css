@@ -74,3 +74,23 @@ body {
   font-weight: 400;
   font-size: 16px;
 }
+
+/* THIS IS FOR THE CONTACT SECTION */
+.contact-input {
+  width: 100%;
+  background-color: #1c1c27;
+  border: 1px solid #2a2a3a;
+  border-radius: 0.5rem;
+  padding: 14px 20px;
+  font-size: 1rem;
+  color: white;
+  outline: none;
+}
+.contact-input:focus {
+  border-color: #7c3aed;
+}
+
+textarea.contact-input {
+  height: 120px;
+  resize: vertical;
+}
