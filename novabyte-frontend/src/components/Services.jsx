@@ -32,7 +32,10 @@ export function Services() {
               <p className="text-secondary-text text-[14px]">
                 {service.description}
               </p>
-              <a className="text-purple-accent text-[14px] font-medium flex flex-row items-center justify-start gap-[10px]">
+              <a
+                className="text-purple-accent text-[14px] font-medium flex flex-row items-center justify-start gap-[10px]"
+                href="#"
+              >
                 Learn more
                 <span>
                   <ArrowRight />
