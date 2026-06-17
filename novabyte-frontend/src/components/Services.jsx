@@ -24,7 +24,10 @@ export function Services() {
         <div className="flex flex-row gap-[24px]">
           {/* Card */}
           {services.map((service) => (
-            <div className="flex flex-col items-left gap-[16px] p-[24px] max-w-[300px] bg-card-background border border-color-border rounded-[12px]">
+            <div
+              key={service.id}
+              className="flex flex-col items-left gap-[16px] p-[24px] max-w-[300px] bg-card-background border border-color-border rounded-[12px]"
+            >
               <div className="h-[44px] w-[44px] rounded-[10px] bg-[#7C3AED]/15 text-[#7C3AED] flex items-center justify-center">
                 {iconMap[service.icon]}
               </div>
